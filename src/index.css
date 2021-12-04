@@ -15,6 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   background: linear-gradient(to right, #E3A2EE, #90B8F8);
 }
 
 .App {
@@ -25,17 +26,17 @@ body {
   height: 100vh;
   width: 100%;
   max-width: 500px;
-  border: 1px solid mediumblue;
+  border: 1px solid black;
   margin: auto;
 }
 
 header {
   width: 100%;
   padding: 0 0.25em;
-  background-color: mediumblue;
+  background-color: black;
   color: aliceblue;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -52,7 +53,7 @@ main {
 footer {
   width: 100%;
   padding: 0.25em;
-  background-color: mediumblue;
+  background-color: gray;
   color: aliceblue;
   display: grid;
   place-content: center;
